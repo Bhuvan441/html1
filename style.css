@@ -1,0 +1,64 @@
+h1{
+    color:deeppink
+    
+}
+p{
+    color:red;
+    
+}
+.header *{
+    
+    border:solid;
+}
+.header{
+    background-color: darkgreen;
+    display:flex;
+    justify-content: space-between;
+    padding-left : 30px;
+
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+    position:fixed;
+    bottom: 0;
+
+}
+body{
+    background-color: #0b979c ;
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 2000px;
+    
+}
+.site-description{ 
+    display: flex;
+     flex-direction: column;
+      justify-content: first baseline;
+     }
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+a:link{ color: white; }
+a:visited{ color: white; }
+.menu{
+    margin-right: 30px;
+    
+}
+.menu a{
+    margin-left: 20px;
+   display:flex;
+   justify-content: space-between;
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity:0;
+}
+ .item:hover p{ opacity: 1; } .item:hover img{ opacity: 0.33; }
